@@ -4550,12 +4550,12 @@ function nuBuildForm(f){
 		window.nuLoginH	 = ''
 		
 	}
+
+	$('#nuSearchField').focus();
 	
 	if(window.nuOnLoad){
 		nuOnLoad();
 	}
-
-	$('#nuSearchField').focus();
 	
 	if(window.nuMESSAGES.length > 0){
 		
