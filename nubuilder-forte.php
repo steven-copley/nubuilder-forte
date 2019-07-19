@@ -166,7 +166,7 @@ function nubuilderForteShortcode($short_code_attributes){
 		$style = "style='" . $validated_short_code_attributes[NU_SHORT_CODE_STYLE] ."'";
 	}
 
-        $result = "<iframe id='nubuilder4_iframe' $style scrolling='no' src='$iframe_url'></iframe>";
+        $result = "<iframe id='nubuilder4_iframe' $style scrolling='yes' src='$iframe_url'></iframe>";
 
         return $result;
 }
